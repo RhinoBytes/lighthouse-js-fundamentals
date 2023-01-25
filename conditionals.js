@@ -76,9 +76,16 @@ while (x <= 20) {
   start = start + 1;
 }
 */
-
+/*
 for (var x = 0; x < 5; x = x + 1) {
   for (var y = 0; y < 3; y = y + 1) {
     console.log(x + "," + y);
   }
+}
+*/
+
+
+for (let x = 0; x <= 25; x++) {
+  for (let y = 0; y <= 99; y++ )
+  console.log(x + "-" + y);
 }
